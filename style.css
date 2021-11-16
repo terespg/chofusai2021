@@ -11,14 +11,12 @@ h3{margin:3em auto 1em;font-size:1.25em;font-weight:bold;}
 
 .testbox{max-width:500px;aspect-ratio:16/9;margin:1em auto;padding:1em;background:#CCC;}
 
-header{height:120px;}
-h2{margin-top:-120px;padding-top:120px;}
-h3{margin-top:-120px;padding-top:120px;}
-header #header_nav{display:flex; list-style:none; margin-top:-10px;}
-header li{text-align:center; width:60%;}
-header li:first-child{width:22%;}
-header li:last-child{width:18%;}
-header a{color:#FFF; text-decoration:none; height:30px;}
+header{display:flex;}
+h1{flex:1 1 500px;}
+#header_nav{flex:0 4 400px;display:flex;align-items:stretch;margin:0;padding:0;list-style:none;}
+#header_nav li{flex:1 1 0;display:table;text-align:center;white-space:nowrap;}
+#header_nav a{display:table-cell;padding:0.5em;vertical-align:middle;color:unset;text-decoration:none;}
+#header_nav a:hover{background:#666;}
 
 .linkcard{margin:16px auto;max-width:480px;}
 .linkcard a{display:block;color:unset;text-decoration:unset;border:1px solid #999;border-radius:8px;overflow:hidden;box-shadow:4px 4px 8px #CCC;}
@@ -29,7 +27,9 @@ header a{color:#FFF; text-decoration:none; height:30px;}
 /*.linkcard{display:block;max-width:480px;margin:16px auto;border:1px solid #CCC;border-radius:16px;}
 .linkcard img{display:block;width:100%;border-radius:15px;}*/
 
-@media screen and ( max-width:640px ) {
+@media screen and ( max-width:800px ) {
 	h1{font-size:1.5em;}
 	h2{margin-top:2em;}
+	header{flex-wrap:wrap;}
+	#header_nav{flex:1 1 400px;}
 }
