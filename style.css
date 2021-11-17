@@ -20,7 +20,7 @@ h1{flex:1 1 500px;}
 #header_nav{flex:0 4 400px;display:flex;align-items:stretch;margin:0;padding:0;list-style:none;}
 #header_nav li{flex:1 1 0;display:table;text-align:center;white-space:nowrap;}
 #header_nav a{display:table-cell;padding:0.5em;vertical-align:middle;color:unset;text-decoration:none;}
-#header_nav a:hover{background:#666;}
+#header_nav a:hover{transition:all 0.2s;background:#666;}
 
 .linkcard{margin:16px auto;max-width:480px;}
 .linkcard a{display:block;color:unset;text-decoration:unset;border:1px solid #999;border-radius:8px;overflow:hidden;box-shadow:4px 4px 8px #CCC;}
