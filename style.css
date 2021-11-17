@@ -28,11 +28,12 @@ h1{flex:1 1 500px;margin:0;padding:0.5em 1em;font-size:2em;font-weight:bold;}
 @media screen and ( max-width:800px ) {
 	h1{font-size:1.5em;}
 	h2{margin-top:2em;}
-	h2[id]::before{height:6em;margin-top:-6em;}
+	h2[id]::before{height:170.6px;margin-top:-170.6px;}
 	header{flex-wrap:wrap;}
 	#header_nav{flex:1 1 400px;}
 }
 
 @media screen and ( max-width:400px ) {
 	h1{font-size:1.2em;}
+	h2[id]::before{height:156.2px;margin-top:-156.2px;}
 }
