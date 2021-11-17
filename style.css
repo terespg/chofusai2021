@@ -12,6 +12,8 @@ h3{margin:3em auto 1em;font-size:1.25em;font-weight:bold;}
 
 .testbox{max-width:500px;aspect-ratio:16/9;margin:1em auto;padding:1em;background:#CCC;}
 
+.illust_img{width:30%;}
+
 header{display:flex;}
 h1{flex:1 1 500px;}
 #header_nav{flex:0 4 400px;display:flex;align-items:stretch;margin:0;padding:0;list-style:none;}
